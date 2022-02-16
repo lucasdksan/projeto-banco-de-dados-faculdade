@@ -1,5 +1,5 @@
 interface ClientProps{
-    id: number;
+    ID: number;
     nome: string;
     email: string;
     senha: string;
@@ -8,7 +8,7 @@ interface ClientProps{
 export default {
     render(client: ClientProps){
         return {
-            id: client.id,
+            id: client.ID,
             name: client.nome,
             email: client.email
         }
